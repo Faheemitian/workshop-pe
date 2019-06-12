@@ -25,7 +25,7 @@ The Client Bundle can be downloaded by logging into your UCP user account.
 
 After downloading the client bundle, we will apply the settings to our system.
 
-1. Unzip the client bundle package. Make sure to store the client bundle in a `save place`, e.g. `user owned directory` or `password safe`.
+1. Unzip the client bundle package. Make sure to store the client bundle in a `safe place`, e.g. `user owned directory` or `password safe`.
 
 2. Make sure all content of the ZIP file has been unpacked properly and stored in the same directory:
 ```
@@ -144,4 +144,4 @@ local               ip-172-31-64-13.eu-central-1.compute.internal/ucp-node-certs
 
 ## Conclusion
 
-Client Bundles are used to operate your UCP cluster remotely. Make sure your Bundles are stored in a save place! If Client Bundles are lost, you can revoke them in the UCP Web UI. Client Bundles can be also used for other UCP/DTR related tasks, such as signing images. You can also switch between Client Bundles by reapplying the shell scripts of different user folders.
+Client Bundles are used to operate your UCP cluster remotely. Make sure your Bundles are stored in a safe place! If Client Bundles are lost, you can revoke them in the UCP Web UI. Client Bundles can be also used for other UCP/DTR related tasks, such as signing images. You can also switch between Client Bundles by reapplying the shell scripts of different user folders.
